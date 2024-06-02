@@ -75,7 +75,7 @@ custom_get_header(); ?>
           </div>
           <div class="main__image-wrapper">
             <img
-              src="./assets/img/img1.png"
+              src="<?php echo get_theme_file_uri( './assets/img/img1.png' ); ?>"
               alt="rehabilitation"
               class="main__image"
             />
@@ -99,7 +99,7 @@ custom_get_header(); ?>
           </div>
           <div class="main__image-intersect-adaptive">
             <img
-              src="data:image/svg+xml,%3csvg%20width='768'%20height='126'%20viewBox='0%200%20768%20126'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M246.746%2063H768V0C600.76%2040.6066%20426.23%2062.3906%20246.746%2063Z'%20fill='white'/%3e%3cpath%20d='M0%2050.3746V63H231.254C153.168%2062.7349%2076.0188%2058.4618%200%2050.3746Z'%20fill='white'/%3e%3cpath%20d='M521.254%2063H0V126C167.24%2085.3934%20341.77%2063.6094%20521.254%2063Z'%20fill='white'/%3e%3cpath%20d='M768%2075.6254V63H536.746C614.832%2063.2651%20691.981%2067.5381%20768%2075.6254Z'%20fill='white'/%3e%3c/svg%3e"
+              src="data:image/svg+xml,%3csvg%20width='768'%20height='126'%20viewBox='0%200%20768%20126'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M246.746%2063H768V0C600.76%2040.6066%20426.23%2062.3906%20246.746%2063Z'%20fill='white'/%3e%3cpath%20d='M0%2050.3746V63H231.254C153.168%2062.7349%2076.0188%2058.4618%200%2050.3746Z'%20fill='white'/%3e%3cpath%20d='M521.254%2063H0V126C167.24%2085.3934%20341.77%2063.6094%20521.254%2063Z'%20fill='white'/%3e%3cpath%20d='M768%2075.6254V63H536.746C614.832%2063.2651%20691.981%2067.5381%20768%2075.6254Z'%20fill='white'/%3e%3c/svg%3e)"
               alt=""
               class="main__image-intersect-image-adaptation"
             />
@@ -125,7 +125,7 @@ custom_get_header(); ?>
       <div class="about__media">
         <img
           class="about__img"
-          src="./assets/img/about-block-image-1.png"
+          src="<?php echo get_theme_file_uri( './assets/img/about-block-image-1.png' ); ?>"
           alt=""
         />
       </div>
@@ -133,7 +133,7 @@ custom_get_header(); ?>
       <div class="about__media">
         <img
           class="about__img"
-          src="./assets/img/about-block-image-3.png"
+          src="<?php echo get_theme_file_uri( './assets/img/about-block-image-3.png' ); ?>"
           alt=""
         />
       </div>
@@ -143,42 +143,42 @@ custom_get_header(); ?>
           autoplay
           muted
           class="about__video"
-          src="./assets/video/about_agape_video.mp4"
+          src="<?php echo get_theme_file_uri( './assets/video/about_agape_video.mp4' ); ?>"
           type="video/mp4"
         ></video>
       </div>
       <div class="about__media">
         <img
           class="about__img"
-          src="./assets/img/about-block-image-5.png"
+          src="<?php echo get_theme_file_uri( './assets/img/about-block-image-5.png' ); ?>"
           alt=""
         />
       </div>
       <div class="about__media">
         <img
           class="about__img"
-          src="./assets/img/about-block-image-6.png"
+          src="<?php echo get_theme_file_uri( './assets/img/about-block-image-6.png' ); ?>"
           alt=""
         />
       </div>
       <div class="about__media">
         <img
           class="about__img"
-          src="./assets/img/about-block-image-7.png"
+          src="<?php echo get_theme_file_uri( './assets/img/about-block-image-7.png' ); ?>"
           alt=""
         />
       </div>
       <div class="about__media">
         <img
           class="about__img"
-          src="./assets/img/about-block-image-8.png"
+          src="<?php echo get_theme_file_uri( './assets/img/about-block-image-8.png' ); ?>"
           alt=""
         />
       </div>
       <div class="about__media">
         <img
           class="about__img"
-          src="./assets/img/about-block-image-9.png"
+          src="<?php echo get_theme_file_uri( './assets/img/about-block-image-9.png' ); ?>"
           alt=""
         />
       </div>
@@ -472,7 +472,7 @@ custom_get_header(); ?>
       <div class="services__card">
         <img
           class="services__image"
-          src="./assets/img/services-block-image-1.png"
+          src="<?php echo get_theme_file_uri( './assets/img/services-block-image-1.png' ); ?>"
           alt=""
         />
         <h3 class="services__subtitle">Послуги транспортування</h3>
@@ -489,7 +489,7 @@ custom_get_header(); ?>
       <div class="services__card">
         <img
           class="services__image"
-          src="./assets/img/services-block-image-2.png"
+          src="<?php echo get_theme_file_uri( './assets/img/services-block-image-2.png' ); ?>"
           alt=""
         />
         <h3 class="services__subtitle">Ремонт крісел колісних</h3>
@@ -506,7 +506,7 @@ custom_get_header(); ?>
       <div class="services__card">
         <img
           class="services__image"
-          src="./assets/img/services-block-image-3.png"
+          src="<?php echo get_theme_file_uri( './assets/img/services-block-image-3.png' ); ?>"
           alt=""
         />
         <h3 class="services__subtitle">Тренувальний Центр фізичної терапії</h3>
@@ -523,7 +523,7 @@ custom_get_header(); ?>
       <div class="services__card">
         <img
           class="services__image"
-          src="./assets/img/services-block-image-4.png"
+          src="<?php echo get_theme_file_uri( './assets/img/services-block-image-4.png' ); ?>"
           alt=""
         />
         <h3 class="services__subtitle">Корисна інформація</h3>
